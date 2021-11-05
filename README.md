@@ -1,7 +1,7 @@
 # full-stack-mern-app
 A full stack app built using mongodb, expressjs, reactjs and nodejs
 
-# Vercel Deployment
+# MERN Deployment in Vercel
 
 #### Step 1: Exclude client build from .gitignore
 
