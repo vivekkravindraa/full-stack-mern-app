@@ -23,7 +23,7 @@ A full stack app built using mongodb, expressjs, reactjs and nodejs
 
 ```javascript
 if(process.env.NODE_ENV === 'production') {
-    // app.use(express.static('client/build'));
+    const path = require('path');
     app.use(express.static(path.join(__dirname, 'client', 'build')));
     app.get('/*', (req, res) => {
         res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
