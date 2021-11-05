@@ -16,7 +16,7 @@ A full stack app built using mongodb, expressjs, reactjs and nodejs
 
 #### Step 3: Configure server.js for production deployment
 
-```javascript
+```render-babel
 if(process.env.NODE_ENV === 'production') {
     // app.use(express.static('client/build'));
     app.use(express.static(path.join(__dirname, 'client', 'build')));
@@ -26,7 +26,7 @@ if(process.env.NODE_ENV === 'production') {
 }
 ```
 
-#### Step 3: Configure vercel.json
+#### Step 4: Configure vercel.json
 
 ```javascript
 {
