@@ -7,10 +7,15 @@ A full stack app built using mongodb, expressjs, reactjs and nodejs
 
 #### Step 2: Configure scripts in package.json of the server
 
-```javascript
+```render-babel
 ...
 "scripts": {
    "start": "node server.js"
 }
 ...
+```
+#### Step 3: Configure vercel.json
+
+```javascript
+
 ```
