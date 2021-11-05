@@ -1,4 +1,3 @@
-# full-stack-mern-app
 A full stack app built using mongodb, expressjs, reactjs and nodejs
 
 # MERN Deployment in Vercel
@@ -15,7 +14,7 @@ A full stack app built using mongodb, expressjs, reactjs and nodejs
 ...
 ```
 
-#### Step 3: 
+#### Step 3: Configure server.js for production deployment
 
 ```javascript
 if(process.env.NODE_ENV === 'production') {
