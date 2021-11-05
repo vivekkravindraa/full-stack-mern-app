@@ -50,3 +50,5 @@ if(process.env.NODE_ENV === 'production') {
     ]
 }
 ```
+
+#### Step 5: Login to Vercel with Github account, import the project and deploy by adding required .env credentials
