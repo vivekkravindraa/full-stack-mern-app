@@ -4,6 +4,11 @@ A full stack app built using mongodb, expressjs, reactjs and nodejs
 
 #### Step 1: Exclude client build from .gitignore
 
+```javascript
+# Production
+# /build
+```
+
 #### Step 2: Configure scripts in package.json of the server
 
 ```javascript
