@@ -16,7 +16,7 @@ A full stack app built using mongodb, expressjs, reactjs and nodejs
 
 #### Step 3: Configure server.js for production deployment
 
-```render-babel
+```javascript
 if(process.env.NODE_ENV === 'production') {
     // app.use(express.static('client/build'));
     app.use(express.static(path.join(__dirname, 'client', 'build')));
